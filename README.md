@@ -1,6 +1,9 @@
-Перед началом установки:
-#Обновляем зависимости, устанавливаем pip3
+# Hyperlane Validator Setup
+
+## 🛠 Установка зависимостей
+
+1. Обновление системы и базовых пакетов, установка python:
 sudo apt-get update && sudo apt-get install -y sudo curl python3-pip
 
-#Устанавливаем Docker и docker-compose
-https://raw.githubusercontent.com/web3nodes/Dependencies/refs/heads/main/docker.sh
+3. Установка Docker и Docker Compose:
+curl -sSL https://raw.githubusercontent.com/web3nodes/Dependencies/main/docker.sh | bash
